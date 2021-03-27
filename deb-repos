@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+#
+# Rewrite sources.list to add debian buster standart repositories
+echo "deb http://deb.debian.org/debian buster main" > /etc/apt/sources.list
+echo "deb-src http://deb.debian.org/debian buster main" >> /etc/apt/sources.list
+echo "" >> /etc/apt/sources.list 
+echo "deb http://deb.debian.org/debian-security/ buster/updates main" >> /etc/apt/sources.list
+echo "deb-src http://deb.debian.org/debian-security/ buster/updates main" >> /etc/apt/sources.list
+echo "" >> /etc/apt/sources.list
+echo "deb http://deb.debian.org/debian buster-updates main" >> /etc/apt/sources.list
+echo "deb-src http://deb.debian.org/debian buster-updates main" >> /etc/apt/sources.list 
