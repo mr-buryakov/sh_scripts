@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Writes sources.list in order to add non-free repository"
+echo "Writes sources.list in order to add Buster standart repository"
 #
 # Rewrite sources.list to add debian buster standart repositories
 echo "deb http://deb.debian.org/debian buster main" > /etc/apt/sources.list
